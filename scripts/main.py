@@ -12,5 +12,3 @@ word_5 = ["soilder", "walker", "licker", "sniffer", "eater", "porker", "slapper"
 
 def generate():
     return f"{choice(word_1)} {choice(word_2)} {choice(word_3)} {choice(word_4)} {choice(word_5)}".title()
-
-for x in range(100): print(generate())
